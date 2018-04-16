@@ -6,7 +6,7 @@ var half_pi = PI * 0.5
 var mouse_sensitivity = 0.01
 
 func _input(event):
-	if event is InputEventMouseMotion and Input.is_mouse_button_pressed(1) and event.position.y > 50:
+	if event is InputEventMouseMotion and Input.is_mouse_button_pressed(1) and event.position.y > 100:
 		x_angle -= event.relative.x * mouse_sensitivity
 		y_angle -= event.relative.y * mouse_sensitivity
 		
