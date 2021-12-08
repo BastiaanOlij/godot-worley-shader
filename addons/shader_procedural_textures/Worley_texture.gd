@@ -1,3 +1,4 @@
+tool
 extends Viewport
 
 export var texture_size = Vector3(128.0, 128.0, 1.0) setget set_texture_size, get_texture_size
